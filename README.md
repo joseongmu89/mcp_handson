@@ -7,8 +7,13 @@
 2. Python 사용을 위한 uv 설치
 curl -LsSf https://astral.sh/uv/install.sh | sh
 윈도우: powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+환경변수 설정
+
+3. 파이썬 설치
+환경변수 설정
 
 4. npx 실행을 위한 Node 설치 
+환경변수 설정
 
 ———실제 MCP 서버 개발———
 
