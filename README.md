@@ -34,3 +34,17 @@ uv add "mcp[cli]" httpx
 
 # Create our server file
 touch weather.py
+
+{
+  "mcpServers": {
+    "weather": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/Users/joseongmu/Desktop/MCP_TEST/weather",
+        "run",
+        "weather.py"
+      ]
+    }
+  }
+}
