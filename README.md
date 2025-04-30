@@ -35,6 +35,7 @@ uv add "mcp[cli]" httpx
 # Create our server file
 touch weather.py
 
+<pre><code>
 {
   "mcpServers": {
     "weather": {
@@ -48,3 +49,4 @@ touch weather.py
     }
   }
 }
+</code></pre>
